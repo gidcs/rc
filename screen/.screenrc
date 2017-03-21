@@ -1,0 +1,15 @@
+defencoding utf8                                                                
+encoding utf8 utf8
+ 
+startup_message off 
+autodetach on
+shelltitle "$ |bash"
+defscrollback 10000
+defutf8 on
+term screen-256color
+     
+bind b encoding big5 utf8
+bind u encoding utf8 utf8
+     
+hardstatus on
+hardstatus alwayslastline '%{= w}%-w%{+b r}%n*%t%{-b r}%{w}%+w %=%{c}%d %D %{B} %c '

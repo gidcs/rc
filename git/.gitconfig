@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Kok Suan Lim
+  email = lks@gidcs.net
+
+[alias]
+  br = branch
+  co = checkout
+  chp = cherry-pick # pick one commit to this repo
+  gl = log --oneline
+  gla = log --oneline --all --tags --decorate=full
+
+[core]
+	editor = /usr/bin/vim
