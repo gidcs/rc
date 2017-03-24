@@ -1,8 +1,16 @@
 # You may uncomment the following lines if you want `ls' to be colorized:
 
-# export LS_OPTIONS='--color=auto'
-export LS_OPTIONS='-G'
-# eval "`dircolors`"
+ls --color=auto > /dev/null 2>&1
+if [ "$?" == "1" ]; then
+  # for BSD
+  export LS_OPTIONS='-G'
+  export LSCOLORS="Gxfxcxdxbxegedabagacad"
+else
+  # for Linux
+  export LS_OPTIONS='--color=auto'
+  export LS_COLORS="di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43"
+fi
+
 alias ls='ls $LS_OPTIONS'
 alias ll='ls $LS_OPTIONS -la'
 alias l='ls $LS_OPTIONS -lA'
