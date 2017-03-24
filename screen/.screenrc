@@ -13,3 +13,5 @@ bind u encoding utf8 utf8
      
 hardstatus on
 hardstatus alwayslastline '%{= w}%-w%{+b r}%n*%t%{-b r}%{w}%+w %=%{c}%d %D %{B} %c '
+
+shell -bash
