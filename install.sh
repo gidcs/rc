@@ -4,6 +4,8 @@
 # 
 # install.sh
 
+git pull
+
 echo "Install bash-related configuration..."
 \cp bash/.bash* ~
 echo "Install git-related configuration..."
