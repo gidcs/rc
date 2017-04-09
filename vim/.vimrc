@@ -40,9 +40,9 @@ set cursorline
 set cursorcolumn
 hi CursorLine cterm=NONE ctermbg=darkred ctermfg=yellow guibg=darkred guifg=yellow
 syntax on
-set softtabstop=2
-set tabstop=2
-set shiftwidth=2
+set softtabstop=4
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set background=dark
 set smartindent
