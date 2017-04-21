@@ -7,7 +7,12 @@
 git pull
 
 echo "Install bash-related configuration..."
-\cp bash/.bash* ~
+\cp bash/.bashrc ~
+\cp bash/.bash_aliases ~
+\cp bash/.bash_profile ~
+if [ -f ~/.bash_paliases ]; then 
+    cp ~/.bash_paliases ~
+fi
 echo "Install git-related configuration..."
 \cp git/.git* ~
 echo "Install screen-related configuration..."

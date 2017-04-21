@@ -1,4 +1,4 @@
-# You may uncomment the following lines if you want `ls' to be colorized:
+# public aliases
 
 ls --color=auto > /dev/null 2>&1
 if [ "$?" == "1" ]; then
