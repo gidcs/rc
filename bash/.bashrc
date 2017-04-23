@@ -10,6 +10,7 @@ fi
 
 export EDITOR=vim
 export VISUAL=vim
+export TERM=screen-256color
 
 if [ -f ~/.bash_aliases ]; then . ~/.bash_aliases; fi
 if [ -f ~/.bash_paliases ]; then . ~/.bash_paliases; fi
