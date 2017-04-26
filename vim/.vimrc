@@ -55,5 +55,5 @@ set pastetoggle=<F2>
 set showmode
 set splitbelow
 set splitright
-
-
+"mouse on
+set mouse=a
