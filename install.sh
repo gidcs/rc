@@ -14,7 +14,7 @@ if [ ! -f ~/.bash_env ]; then
     cp bash/.bash_env ~/.bash_env
 fi
 if [ ! -f ~/.bash_paliases ]; then 
-    cp bash/.paliases ~/.bash_paliases
+    cp bash/.bash_paliases ~/.bash_paliases
 fi
 echo "Install git-related configuration..."
 \cp git/.git* ~
