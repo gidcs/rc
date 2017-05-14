@@ -16,7 +16,8 @@ Plugin 'gmarik/vundle'
 " Keep Plugin commands between here and filetype plugin indent on.
 " scripts on GitHub repos
 Plugin 'jiangmiao/auto-pairs'
-
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 filetype plugin indent on     " required
 " To ignore plugin indent changes, instead use:
@@ -57,3 +58,5 @@ set splitbelow
 set splitright
 "mouse on
 set mouse=a
+"vim-airline status bar on
+set laststatus=2

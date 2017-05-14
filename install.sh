@@ -23,6 +23,9 @@ echo "Install screen-related configuration..."
 echo "Install vim-related configuration..."
 \cp vim/.vim* ~
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+cd ~/.vim/bundle/Vundle.vim
+git pull
+cd -
 echo "Install tmux-related configuration..."
 \cp tmux/.tmux* ~
 echo | echo | vim +PluginInstall +qall &>/dev/null
