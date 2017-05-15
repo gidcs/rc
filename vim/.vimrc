@@ -39,7 +39,8 @@ set backspace=indent,eol,start
 set number
 set cursorline
 set cursorcolumn
-hi CursorLine cterm=NONE ctermbg=darkred ctermfg=yellow guibg=darkred guifg=yellow
+hi CursorLine cterm=bold ctermbg=darkgrey ctermfg=NONE guibg=darkgrey guifg=NONE
+hi CursorColumn cterm=bold ctermbg=darkgrey ctermfg=NONE guibg=darkgrey guifg=NONE
 syntax on
 set softtabstop=4
 set tabstop=4
@@ -60,3 +61,11 @@ set splitright
 set mouse=a
 "vim-airline status bar on
 set laststatus=2
+"colorcolumn
+set colorcolumn=76
+hi ColorColumn ctermbg=gray
+"pass drag signal to vim
+set ttymouse=sgr
+"show all when using tab
+set wildmenu
+set wildmode=list:longest
