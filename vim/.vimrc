@@ -18,6 +18,7 @@ Plugin 'gmarik/vundle'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'Yggdroot/indentLine'
 
 filetype plugin indent on     " required
 " To ignore plugin indent changes, instead use:
