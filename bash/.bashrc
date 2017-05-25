@@ -16,4 +16,5 @@ if [ -f ~/.bash_aliases ]; then . ~/.bash_aliases; fi
 if [ -f ~/.bash_paliases ]; then . ~/.bash_paliases; fi
 if [ -f ~/.git-completion.bash ]; then . ~/.git-completion.bash; fi
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+export VIRSH_DEFAULT_CONNECT_URI="qemu:///system"
 
