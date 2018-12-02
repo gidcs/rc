@@ -70,3 +70,5 @@ set ttymouse=sgr
 "show all when using tab
 set wildmenu
 set wildmode=list:longest
+"disable double quotes hiding because of using indentLine
+let g:indentLine_conceallevel=0
